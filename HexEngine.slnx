@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Sandbox/Sandbox.vcxproj" Id="becf39f9-62f7-4969-92f9-8683af25a0ef">
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="HexEngine/HexEngine.vcxproj" Id="58cd9a90-9463-4b7a-bc7b-e3297c6689bf">
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+</Solution>
