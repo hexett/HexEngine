@@ -1,7 +1,86 @@
-# Directories
-.vs/
-bin/
-bin-int/
-
-# Files
+# ============================
+# Visual Studio
+# ============================
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
 *.user
+*.userosscache
+*.sdf
+*.cachefile
+*.db
+*.opendb
+*.VC.db
+
+# VS Code
+.vscode/
+
+# VS
+.vs/
+
+# ============================
+# CMake (in-source + out-of-source)
+# ============================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Visual Studio CMake auto-generated projects
+ALL_BUILD.vcxproj*
+ZERO_CHECK.vcxproj*
+RUN_TESTS.vcxproj*
+INSTALL.vcxproj*
+PACKAGE.vcxproj*
+
+# ============================
+# Build Artifacts
+# ============================
+/bin/
+/bin-int/
+/build/
+/out/
+/dist/
+
+# CMake target folders generated in-source
+HexEngine/Debug/
+HexEngine/Release/
+HexEngine/Dist/
+Sandbox/Debug/
+Sandbox/Release/
+Sandbox/Dist/
+
+# ============================
+# Binaries
+# ============================
+*.exe
+*.dll
+*.lib
+*.pdb
+*.exp
+*.obj
+*.o
+*.so
+*.dylib
+*.a
+
+# ============================
+# Logs and misc
+# ============================
+*.log
+*.tlog
+*.lastbuildstate
+*.ilk
+
+# ============================
+# OS Junk
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
